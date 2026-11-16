@@ -33,6 +33,7 @@ android|gcc {
 }
 
 darwin {
+    DEFINES += _LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION
     LIBS += \
         -framework Foundation
 }
